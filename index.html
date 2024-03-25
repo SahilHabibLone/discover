@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3; /* Light grey background */
+        }
+        header {
+            background-color: #3498db; /* Sky blue header */
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        nav {
+            background-color: #2980b9; /* Dark blue navigation bar */
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        nav a:hover {
+            background-color: #1abc9c; /* Light green when hovered */
+        }
+        section {
+            padding: 40px;
+            background-color: #fff; /* White background for sections */
+            margin: 20px auto;
+            max-width: 800px; /* Limit content width */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+        }
+        h2 {
+            color: #3498db; /* Blue headings */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555; /* Dark grey text */
+            line-height: 1.6;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f9f9f9; /* Light grey form background */
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #3498db; /* Blue submit button */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9; /* Dark blue when hovered */
+        }
+        footer {
+            background-color: #3498db; /* Sky blue footer */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explorations Unveiled</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Explore, Engage, Enlighten! This is where we share our latest explorations and findings.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Our fervor lies in delving into the wonders of our surroundings and spreading the joy of exploration.</p>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <h3>Latest Entries</h3>
+    <article>
+        <h4>Entry Title</h4>
+        <p>Description of your discovery...</p>
+    </article>
+    <article>
+        <h4>Another Entry Title</h4>
+        <p>Description of another discovery...</p>
+    </article>
+    <!-- Add more blog entries as needed -->
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or want to share your own discoveries? Get in touch!</p>
+    <form action="contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <input type="submit" value="Submit"> <!-- Submit button added here -->
+    </form>
+</section>
+
+<footer>
+    <p>&copy;2024 Explorers' Chronicles. All rights reserved. </p>
+</footer>
+
+</body>
+</html>
